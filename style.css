@@ -1,0 +1,168 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.header-top{
+    background-color: #89898b;
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+}
+.content-div h1,h4,.art-number,.submit-btn,.footer-content{
+    color: #ffe600;
+   
+}
+.content-div a{
+    text-decoration: none;
+    padding:25px 80px;
+    text-align: center!important;
+}
+/* .button{
+    border: 1px solid #ffe600;
+}
+.button:focus{
+    box-shadow: unset;
+} */
+li.nav-item {
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 1s ease;
+}
+li.nav-item:hover {
+    border: 1px solid #ffe600;
+}
+li.nav-item a{
+    color: #8e8e8e;
+}
+hr{
+    border-bottom: 2px solid #ffe600;
+}
+
+/* about section style */
+.about-content{
+    padding: 120px 0;
+}
+.art-number{
+    color: #ffe600;
+    font-size: 40px;
+}
+span.art-number::after {
+    position: absolute;
+    width: 2px;
+    height: 40px;
+    color: red;
+    content: "";
+    border-right: 2px solid #ffe600;
+    padding-right: 0px;
+    top: 5px;
+    left: 50px;
+}
+h4 {
+    font-size: 20px;
+}
+ h5{
+    position: relative;
+}
+.pera-content{
+    padding: 60px 0;
+}
+
+/* COOL STUFF SECTION STYLE */
+
+.cool-stuff{
+    background-color: #ffe600;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px 0;
+}
+/* PORTFOLIO SECTION STYLE */
+.image-container {
+    position: relative;
+    
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ffe600;
+  }
+  .warning{
+      font-size: 40px;
+  }
+  .shocking{
+      font-size: 10px;
+  }
+  
+  .image-container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .more-these{
+      font-size: 20px;
+  }
+  /* CONTACT SECTION STYLE */
+  .form-control {
+    background-color:#ffe600;
+   
+}
+
+input[type="text"]:focus,textarea:focus{
+    box-shadow: unset!important;
+    border: unset!important;
+    outline: 0;
+}
+::placeholder {
+    color: white!important;
+   
+  }
+  .submit-btn{
+      background-color: black !important;
+  }
+  p.text-white.footer-content {
+    color: #ffe600!important;
+}
+
+ul.social {
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 15px;
+    font-size: 23px;
+}
+.social li a{
+    color: white;
+}
+/*
+ffe600
+#
+
+*/
