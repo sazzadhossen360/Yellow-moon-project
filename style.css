@@ -23,10 +23,13 @@
 .button:focus{
     box-shadow: unset;
 } */
+
 li.nav-item {
     padding-left: 20px;
     padding-right: 20px;
     transition: 1s ease;
+    border: 1px solid red;
+    border-color: transparent;
 }
 li.nav-item:hover {
     border: 1px solid #ffe600;
